@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Praktikum 6.2</title>
+        <style>
+            h2{
+                text-align: center;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                width: 800px;
+                box-sizing: border-box;
+                margin: 220px;
+            }
+            .kiri {
+                width: 200px;
+                height: 630px;
+                background-color: pink;
+            }
+            .kanan {
+                display: flex;
+                flex-direction: column;
+            }
+            .kanan .header{
+                width: 600px;
+                height: 100px;
+                background-color: orange;
+                text-align: center;
+            }
+            .kanan .main {
+                display: flex;
+
+            }
+            .main .article {
+                width: 400px;
+                height: 430px;
+                background-color: seashell;
+            }
+            .main .aside {
+                width: 200px;
+                height: 430px;
+                background-color: cyan;
+
+            }
+            .footer {
+                width: 600px;
+                height: 100px;
+                background-color: darkkhaki;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="kiri"><h2>Nav</h2></div>
+        <div class="kanan">
+            <div class="header"><h2>Header</h2></div>
+            <div class="main">
+                <div class="article"><h2>Article</h2></div>
+                <div class="aside"><h2>Aside</h2></div>
+            </div>
+            <div class="footer"><h2>Footer</h2></div>
+        </div>
+        </div>
+    </body>
+</html>
